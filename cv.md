@@ -20,27 +20,29 @@ My name is Vladislav. A student of Surgut State University, an electric power en
 - Figma
 
 ## Code example:
-```function getDivisorsCount(number){
-    if(number < 0 || !Number.isInteger(number)){
-        alert('number must be an integer and greater than zero!');
-        return 'Error'
-    }
-
-    let resDev = 0;
-    let dev = [];
-    for(let i = 1; i <= number; i++){
-        if(number%i === 0){
-            resDev++;
-            dev.push(i);
+```
+    function getDivisorsCount(number){
+        if(number < 0 || !Number.isInteger(number)){
+            alert('number must be an integer and greater than zero!');
+            return 'Error'
         }
+
+        let resDev = 0;
+        let dev = [];
+        for(let i = 1; i <= number; i++){
+            if(number%i === 0){
+                resDev++;
+                dev.push(i);
+            }
+        }
+        let result = `Returns ${resDev} (divisors are ${dev})`
+        return result;
     }
-    let result = `Returns ${resDev} (divisors are ${dev})`
-return result;
-}
 
-console.log(getDivisorsCount(30));```
+    console.log(getDivisorsCount(30));
+```
 
-Education
+## Education
 - Graduate of Surgut State University
 - Web Development courses
 
