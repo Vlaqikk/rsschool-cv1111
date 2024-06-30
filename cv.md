@@ -1,14 +1,14 @@
 # Ilinsky Vladislav
-___
+
 ## Contacts:
 **Telegram**: @Vlaqikk  
 **Email**: ilinskyvladislav2002@mail.ru  
 **Phone**: 8 (982) 507-07-79  
 **Phone**: 8 (993) 572-86-01  
-___
+
 ## About me:
 My name is Vladislav. A student of Surgut State University, an electric power engineer. I like to program in JavaScript. 
-___
+
 ## Skills:
 - HTML5, CSS3
 - JavaScript
@@ -18,10 +18,9 @@ ___
 - VS Code
 - Adobe Photoshop
 - Figma
-___
+
 ## Code example:
-```
-function getDivisorsCount(number){
+```function getDivisorsCount(number){
     if(number < 0 || !Number.isInteger(number)){
         alert('number must be an integer and greater than zero!');
         return 'Error'
@@ -39,13 +38,12 @@ function getDivisorsCount(number){
 return result;
 }
 
-console.log(getDivisorsCount(30));
-```
-___
+console.log(getDivisorsCount(30));```
+
 Education
 - Graduate of Surgut State University
 - Web Development courses
-___
+
 ## Languages:
 - Russian  
 - English
